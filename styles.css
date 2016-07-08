@@ -1,0 +1,122 @@
+			   body {
+						margin:0;
+						background-color: #18BD9B;
+					}
+					
+					.fixedwidth {
+						margin:auto;
+						width:1000px;
+					}				
+					
+					#navbarcontainer {
+						height:50px;
+						background-color:#2D3E50;
+					}
+					
+					#navbar {
+						height:50px;
+						
+					}
+					
+					#navbarlogo {
+						font-family:"Itim", cursive;
+						color:#FFFFFF;
+						font-size:2.3em;
+						float:left;
+						cursor:pointer;
+					}
+					
+					
+					#headercontainer {
+						background-color:#18BD9B;
+					}
+					
+					#header {
+						height:100px;
+						font-family:"Itim", sans-serif;
+						color:#FFFFFF;
+						font-size:3em;
+						font-weight:400;
+						padding-left:225px;
+						padding-top:100px;
+						line-height:0.5em;
+					}
+					
+					#headertext {
+						width:550px;
+					}
+					
+					
+					#loginbox {
+						border:0px solid #ffffff;
+						border-radius:20px;
+						height:255px;
+						width:400px;
+						margin-left:300px;
+						background-color:#2D3E50;
+						
+					}
+					
+					.textbox {
+						font-family:"Poppins";
+						font-size:18px;
+						height:35px;
+						border-width:0px;
+						border-color:#CCCCCC;
+						border-radius:5px;
+						padding-left:45px;
+						border-style:solid;
+						margin-left:53px;
+						margin-top:40px;
+					}
+					
+					#logintxtb {
+						background-image:url("images/username.png");
+						background-repeat:no-repeat;
+						background-position:5% 40%;			
+					}
+					
+					#passwordtxtb {
+						background-image:url("images/password.png");
+						background-repeat:no-repeat;
+						background-position:5% 40%;		
+						margin-top:20px;
+					}
+					
+					#accedibtn {
+						border:1px solid #93C9FF;
+						border-radius:5px;
+						background-color:#56A8FF;
+						height:50px;
+						width:292px;
+						margin-left:53px;
+						margin-top:20px;
+						color:#FFFFFF;
+						font-family:"Itim";
+						font-size:1.5em;
+						font-weight:700;
+					}
+					
+					#accedibtn:hover {
+						cursor:pointer;
+						background-color:#93C9FF;
+					}
+					
+					#errormessage {
+						color:white; 
+						font-family:"Itim"; 
+						font-size:1em; 
+						position:relative;
+						left:10px;
+					}
+					
+					#errorimg {
+						float:left;
+						margin-left:15px;
+						margin-top:18px;
+					}
+					
+					
+					
+					
+					

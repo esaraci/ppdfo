@@ -1,0 +1,308 @@
+			   body {
+						margin:0;
+						background-color: #18BD9B;
+					}
+					
+					.fixedwidth {
+						margin:auto;
+						width:1000px;
+					}
+					
+					
+					#navbarcontainer {
+						height:50px;
+						background-color:#2D3E50;
+					}
+					
+					#navbar {
+						height:50px;
+						
+						
+					}
+					
+					#navbarlogo {
+						font-family:"Itim", cursive;
+						color:#FFFFFF;
+						font-size:2.3em;
+						float:left;
+						cursor:pointer;
+					}
+					
+					.navbarbutton {
+						float:right;
+						color:#FFFFFF;
+						font-family:"Itim";
+						font-weight:100;
+						height:50px;
+						padding-left:15px;
+						padding-right:15px;
+					}
+					
+					.navbarbutton:hover {
+						cursor:pointer;
+						background-color:#4F6377;
+						color:#F2DA29;
+					}
+							
+					
+					.navtext {
+						margin-top:15px;
+					}
+					
+					#headercontainer {
+						background-color:#18BD9B;
+					}
+					
+					.header {
+						margin-top:50px;
+						padding:25px 50px;
+						
+						font-family:"Poppins", sans-serif;
+						color:#FFFFFF;
+						background-color:#2D3E50;
+						border-radius:50px;
+					}
+					
+					.header#profilo {
+						height:410px;
+					}
+					
+					.header h2 {
+						margin:0;
+						padding:0;
+					}
+					
+					#usrnm {
+						color:#F2DA29;
+					}
+					
+					.primocampo {
+						color:#F2DA29;
+					}
+					
+					.secondocampo {
+						color:#FFFFFF;
+					}
+					
+					#avatar {
+						float:left;
+						margin-left:25px;
+					}
+					
+					#tabella_dati {
+						float:left;
+						margin-top:15px;
+						margin-left:25px;
+					}
+					
+					
+					.modtextbox {
+						border:1px solid #F2DA29;
+						font-family:"Poppins", sans-serif;
+						color:#FFFFFF;
+						background-color:#2D3E50;
+						border-radius:5px;
+						padding-left:10px;
+						
+					}
+					
+					.btn {
+						float:right;
+						border-radius:5px;
+						height:50px;
+						width:150px;
+						color:#FFFFFF;
+						font-family:"Itim";
+						font-size:1.5em;
+						font-weight:700;
+						margin-top:10px;
+						margin-left:20px;
+						
+					}
+					
+					.btn#edit {
+						border:1px solid #93C9FF;
+						background-color:#56A8FF;	
+						margin-right:15px;			
+					}
+					
+					.btn#edit:hover {
+						cursor:pointer;
+						background-color:#93C9FF;
+					}
+					
+					.btn#save {
+						border:1px solid #2AFC2A;
+						background-color:#1DAF1D;
+						margin-right:15px;
+					}
+					
+					.btn#save:hover {
+						background-color:#22D622;
+						cursor:pointer;
+					}
+					
+					.btn#back {
+						border:1px solid #F4616B;
+						background-color:#D11421;
+					}
+					
+					.btn#back:hover {
+						cursor:pointer;
+						background-color:#E54953;
+					}
+					
+					.message {
+						margin-top:6px;
+						margin-left:50px;
+						float:left;
+						background-repeat:no-repeat;
+						background-position:left center;
+						padding-left:25px;
+					}
+					
+					
+					.message#error {	
+						background-image:url("http://ppdfo.altervista.org/images/loginerror.png");
+					}
+					
+					.message#success {
+						background-image:url("http://ppdfo.altervista.org/images/accept.png");
+					}
+					
+					
+					.indirizzi {
+						width:850px;
+						margin:auto;
+					}
+					
+					.indirizzi th {
+						color:#F2DA29;
+					}
+					
+					.indirizzi td {
+						border:1px solid;
+						text-align:center;
+					}
+					
+					.indirizzi tr {
+						border:1px solid;
+					}
+					
+					.indirizzi td img {
+						display:block;
+						margin:auto;
+					}
+					
+					#indi {
+						border:none;
+					}
+					
+					
+					#addbtn {
+						margin-top:5px;
+						margin-left:3px;
+						margin-right:3px;
+						border:0;
+						background-image:url("images/add.png");
+						height:16px;
+						width:16px;
+						background-color:#2D3E50;
+					}
+					
+					#addbtn:hover {
+						cursor:pointer;
+					}
+					
+					#delbtn {
+						margin-top:5px;
+						margin-left:3px;
+						margin-right:3px;
+						border:0;
+						background-image:url("images/delete.png");
+						height:16px;
+						width:16px;
+						background-color:#2D3E50;
+					}
+					
+					#delbtn:hover {
+						cursor:pointer;
+					}
+					
+					#titleshop {
+						float:left;
+					}
+					
+					#step {
+						float:right;
+					}
+					
+					#contbtn {
+						margin:auto;
+						width:450px;
+						height:80px;
+					}
+					
+					#btn_nuovastampa {
+						float:left;
+						border-radius:5px;
+						height:80px;
+						width:200px;
+						color:#FFFFFF;
+						font-family:"Itim";
+						font-size:1.5em;
+						font-weight:700;
+						margin-top:10px;
+						margin-left:20px;
+						border:1px solid #F4616B;
+						background-color:#D11421;			
+					}
+					
+					#btn_nuovastampa:hover {
+						cursor:pointer;
+						background-color:#E54953;
+					}
+					
+					#btn_negozio {
+						float:left;
+						border-radius:5px;
+						height:80px;
+						width:200px;
+						color:#FFFFFF;
+						font-family:"Itim";
+						font-size:1.5em;
+						font-weight:700;
+						margin-top:10px;
+						margin-left:20px;
+						border:1px solid #2AFC2A;
+						background-color:#1DAF1D;			
+					}
+					
+					#btn_negozio:hover {
+						background-color:#22D622;
+						cursor:pointer;
+					}
+					
+					.custom-file-upload {
+					    border: 1px solid #ccc;
+					    display: inline-block;
+					    padding: 6px 12px;
+					    cursor: pointer;
+					}
+					
+					#uploadform {
+						
+						margin:auto;
+						height:50px;
+						width:650px;
+					}
+					
+					#btnupload {
+						height:40px;
+						position:relative;
+						bottom:1px;
+						cursor:pointer;
+					}
+					
+
+					
